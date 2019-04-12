@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+/* Project Name: E-Portfolio
+   File Name: app.css
+   Name: Vyoma Shukla
+   Student id: 300989164 */
+
+/* custom css*/
+
+body {
+    background-image: url("./assets/images/Back.jpg");
+  }
+
+h1 {
+    color: rgb(29, 10, 133);
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+    
+}
