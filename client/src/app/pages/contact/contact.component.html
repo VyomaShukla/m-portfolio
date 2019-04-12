@@ -16,6 +16,20 @@
            (416)-848-5371
            </div>
          </div><br>
+
+         <div *ngIf="isLoggedIn()" class="container">
+          <div class="row">
+            <div class="col col-md-6">
+              <div class="card">
+                <h5 class="card-header alert-success">Secure</h5>
+                <div class="card-body">
+                  <a routerLink="contact-list" class="btn btn-primary"><i class="fas fa-users fa-lg"></i> Contact List</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
          <div class="panel panel-primary">
  <div class="panel-heading" align="center" style="background: pink"><b>Add your Info</b></div><br>
  <div class="panel-body">
@@ -40,18 +54,7 @@
 </div>
 </div>
 
-<div *ngIf="isLoggedIn()" class="container">
-  <div class="row">
-    <div class="col col-md-6">
-      <div class="card">
-        <h5 class="card-header alert-success">Secure</h5>
-        <div class="card-body">
-          <a routerLink="contact-list" class="btn btn-primary"><i class="fas fa-users fa-lg"></i> Contact List</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+
 
 
 
